@@ -1,32 +1,62 @@
-body {
-    background-color: rgb(46, 192, 236);
+h1 {
+    font-size: 50pt;
+    text-align: left;
+    color: white;
 }
 
-h1 {
-    font-size: 25pt;
-    text-align: center;
+a:link {
+    color: darkgray;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+.banner-text {
+    font-size: 18;
+    text-align: left;
+    color: white;
 }
 
 .banner {
-    background-color: white;
-    width: 1000px;
-    height: 100px;
+    position: relative;
+    background-color: black;
+    width: fit-content;
+    padding: 1%;
+}
+
+.banner-logos{
+    height: 2.5vh;
+    width: 2.5vh;
+}
+
+.banner-image{
+    position: relative;
+    height: 28vh;
+    width: 28vh;
+    float: right;
+    top: -17.5vh;
 }
 
 .sidebar {
-    background-color: white;
-    padding: 10px;
-    width: 75px;
-    height: 600px;
+    position: relative;
+    float: left;
+    background-color: darkgray;
+    margin-top: 1%;
+    padding: 2%;
+    width: 100px;
+    height: 65vh;
 }
 
 .image {
-    height: 60px;
-    width: 60px;
-    margin: 8px;
-}
-
-.cap {
     position: relative;
-    top: 200px;
+    height: 15vh;
+    width: 15vh;
+    margin: 2px;
+    left: -3vh;
+
 }
